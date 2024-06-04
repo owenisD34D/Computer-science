@@ -1,0 +1,74 @@
+playSound("audiomass-output.mp3", true);
+setScreen("1Startscreen");
+onEvent("button7", "click", function( ) {
+  playSound("sound://category_digital/error_2.mp3", false);
+  hideElement("enterandclockin");
+  hideElement("youenter");
+  setScreen("screen2");
+});
+onEvent("screen2", "click", function( ) {
+  showElement("enterandclockin");
+});
+onEvent("enterandclockin", "click", function( ) {
+  playSound("sound://category_digital/error_2.mp3", false);
+  deleteElement("enterandclockin");
+  showElement("youenter");
+  hideElement("image10");
+  hideElement("firstnight");
+});
+hideElement("firstcustomer");
+hideElement("Counterapproach");
+hideElement("Walking-round");
+hideElement("image6");
+onEvent("youenter", "click", function( ) {
+  playSound("sound://category_digital/error_2.mp3", false);
+  setScreen("screen3");
+});
+onEvent("image2", "click", function( ) {
+  playSound("sound://category_bell/bells_win.mp3", false);
+  showElement("firstcustomer");
+  playSound("sound://category_movement/walk_loop.mp3", false);
+});
+onEvent("firstcustomer", "click", function( ) {
+ playSound("sound://category_digital/error_2.mp3", false);
+  ;hideElement("firstcustomer");
+  showElement("Walking-round");
+});
+onEvent("Walking-round", "click", function( ) {
+  playSound("sound://category_digital/error_2.mp3", false);
+  hideElement("Walking-round");
+  playSound("sound://category_movement/walk_loop.mp3", false);
+  showElement("Counterapproach");
+  showElement("image6");
+});
+hideElement("2");
+hideElement("1");
+hideElement("leaveit");
+hideElement("ask");
+hideElement("you");
+onEvent("Counterapproach", "click", function( ) {
+  setScreen("screen4");
+});
+onEvent("label1", "click", function( ) {
+  playSound("sound://category_digital/error_2.mp3", false);
+  showElement("ask");
+  showElement("leaveit");
+});
+hideElement("1");
+hideElement("smile1");
+hideElement("kid");
+hideElement("response2");
+hideElement("2");
+hideElement("you");
+onEvent("ask", "click", function( ) {
+    playSound("sound://category_digital/error_2.mp3", false);
+    setScreen("screen5");
+    showElement("you");
+    showElement("1");
+});
+onEvent("leaveit", "click", function( ) {
+    playSound("sound://category_digital/error_2.mp3", false);
+    setScreen("screen5");
+    showElement("you");
+    showElement("2");
+});
