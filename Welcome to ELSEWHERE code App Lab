@@ -1,0 +1,67 @@
+onEvent("StertButton", "click", function( ) {
+  playSound("sound://category_digital/coin_2.mp3", false);
+  setScreen("Characterscreen");
+  playSound("onlymp3.to---Set-It-Off-Why-do-I-8-bit-Version-From-welcome2elsewhere.com--AaUITPow9UM-192k-1699559322.mp3", true);
+});
+onEvent("Cody", "click", function( ) {
+  playSound("sound://category_digital/coin_2.mp3", false);
+  setScreen("CodyCharacterScreen");
+});
+onEvent("GoBack1", "click", function( ) {
+  playSound("sound://category_digital/coin_2.mp3", false);
+  setScreen("Characterscreen");
+});
+onEvent("Choose1", "click", function( ) {
+  playSound("sound://category_digital/error_1.mp3", false);
+  stopSound("onlymp3.to---Set-It-Off-Why-do-I-8-bit-Version-From-welcome2elsewhere.com--AaUITPow9UM-192k-1699559322.mp3");
+  setScreen("Uhoh");
+});
+onEvent("Back2start", "click", function( ) {
+  setScreen("Startscreen");
+});
+onEvent("Zach", "click", function( ) {
+  playSound("sound://category_digital/coin_2.mp3", false);
+  setScreen("ZachDewallCharacterScreen");
+});
+onEvent("GoBack2", "click", function( ) {
+  playSound("sound://category_digital/coin_2.mp3", false);
+  setScreen("Characterscreen");
+});
+onEvent("Choose2", "click", function( ) {
+  playSound("sound://category_digital/error_1.mp3", false);
+  stopSound("onlymp3.to---Set-It-Off-Why-do-I-8-bit-Version-From-welcome2elsewhere.com--AaUITPow9UM-192k-1699559322.mp3");
+  setScreen("Uhoh");
+});
+onEvent("Maxx", "click", function( ) {
+  playSound("sound://category_digital/coin_2.mp3", false);
+  setScreen("MaxxDanzigerCharacterScreen");
+});
+onEvent("GoBack3", "click", function( ) {
+  playSound("sound://category_digital/coin_2.mp3", false);
+  setScreen("Characterscreen");
+});
+onEvent("Choose3", "click", function( ) {
+  playSound("sound://category_digital/error_1.mp3", false);
+  stopSound("onlymp3.to---Set-It-Off-Why-do-I-8-bit-Version-From-welcome2elsewhere.com--AaUITPow9UM-192k-1699559322.mp3");
+  setScreen("Uhoh");
+});
+onEvent("SecretButton", "click", function( ) {
+  playSound("sound://category_digital/error_1.mp3", false);
+  setScreen("Fail1");
+});
+onEvent("BTS?", "click", function( ) {
+  setScreen("Startscreen");
+});
+onEvent("button18", "click", function( ) {
+  playSound("sound://category_digital/error_1.mp3", false);
+  setScreen("Fail2");
+});
+onEvent("labellll", "click", function( ) {
+  setScreen("Startscreen");
+});
+onEvent("B2S", "click", function( ) {
+  playSound("sound://category_digital/error_1.mp3", false);
+});
+onEvent("B2S", "click", function( ) {
+  
+});
